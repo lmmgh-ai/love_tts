@@ -149,7 +149,6 @@ target_include_directories(tts_test PUBLIC ./eigen-3.4.0
                ./src/models/Generator_Istft.cpp
                ./src/models/Generator_MBB.cpp
                ./src/models/SynthesizerTrn.cpp
-                    
   )                  
   
   target_include_directories(luatts PUBLIC ./eigen-3.4.0

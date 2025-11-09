@@ -5,11 +5,12 @@
 #include <string>
 #include <map>
 
+#include <cstdint>
+
 using namespace std;
 
-multimap<string, vector<string> > initPinyin2Phone();
+multimap<string, vector<string>> initPinyin2Phone();
 map<string, int32_t> initPhoneIDMap();
 map<uint16_t, uint16_t> initNumMap();
 
 #endif
-

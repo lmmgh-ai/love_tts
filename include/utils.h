@@ -16,6 +16,8 @@
 #include <fcntl.h>
 #include "sys/stat.h"
 
+#include <cstdint>
+
 using std::cerr;
 using std::cout;
 using std::endl;

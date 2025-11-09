@@ -244,7 +244,7 @@ extern "C"
 {
     LOVE_OR_LUA_LIB int luaopen_libluatts(lua_State *L)
     {
-        luaL_register(L, "liluatts", luaLibs);
+        // luaL_register(L, "liluatts", luaLibs);
         return 1; // 把myLib表压入了栈中，所以就需要返回1
     }
 };
